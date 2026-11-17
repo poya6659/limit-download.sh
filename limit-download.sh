@@ -2,8 +2,8 @@
 
 CONF_FILE="/etc/wireguard/wg0.conf"
 IFACE="wg0"
-RATE="15mbit"
-CEIL="15mbit"
+RATE="30mbit"
+CEIL="30mbit"
 CLASSID_BASE=160
 
 if [[ ! -f "$CONF_FILE" ]]; then
